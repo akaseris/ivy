@@ -135,7 +135,6 @@ def test_dropout(
         fw=backend_fw,
         fn_name=fn_name,
         on_device=on_device,
-        test_values=False,
         x=x[0],
         prob=prob,
         scale=scale,
